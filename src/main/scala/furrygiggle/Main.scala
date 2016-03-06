@@ -40,7 +40,7 @@ case class FurryCanvas(canvas: html.Canvas) {
 
   def draw(p: (Int,Int)): Unit = {
     val (x, y) = p
-//    clearRect(0, 0, canvas.width, canvas.height)
+    //    clearRect(0, 0, canvas.width, canvas.height)
     fillStyle = "rgb(0, 150, 150)"
     fillRect(p._1, p._2, 200, 100)
 
